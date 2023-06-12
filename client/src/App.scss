@@ -40,6 +40,10 @@ label {
   }
 }
 
+pre {
+    margin: 1px 0;
+}
+
 input {
   padding: 10px 0;
   border-radius: 0.125rem;
@@ -80,7 +84,7 @@ input {
   }
 }
 
-.transfer {
+.flex {
   display: flex;
   flex-direction: column;
 }
