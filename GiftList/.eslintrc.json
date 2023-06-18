@@ -1,0 +1,19 @@
+{
+    "plugins": ["prettier"],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "only-multiline"],
+        "space-before-function-paren": ["error", "never"],
+        "semi": [2, "always"],
+        "quotes": [2, "double"]
+    }
+}
